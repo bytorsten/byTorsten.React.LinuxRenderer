@@ -1,0 +1,22 @@
+{
+  "description": "react renderer for linux",
+  "type": "neos-react",
+  "name": "bytorsten/react-linuxrenderer",
+  "require": {
+    "byTorsten/React": "*",
+    "react/child-process": "^0.5.2"
+  },
+  "provide": {
+    "byTorsten/react-rendererimplementation": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "byTorsten\\React\\LinuxRenderer\\": "Classes/"
+    }
+  },
+  "extra": {
+    "neos": {
+      "package-key": "byTorsten.React.LinuxRenderer"
+    }
+  }
+}

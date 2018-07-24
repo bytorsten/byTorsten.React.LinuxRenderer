@@ -1,0 +1,10 @@
+byTorsten:
+  React:
+    LinuxRenderer:
+      path: 'resource://byTorsten.React.LinuxRenderer/Private/bin/react-renderer-linux'
+      keepAlive: true
+      pipes:
+        stdout: 'renderer_stdout'
+        stderr: 'renderer_stderr'
+      processTimeout: 2.0
+      socketTimeout: 30.0
