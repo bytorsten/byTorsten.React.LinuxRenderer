@@ -2,6 +2,13 @@
   "description": "react renderer for linux",
   "type": "neos-react",
   "name": "bytorsten/react-linuxrenderer",
+  "authors": [
+    {
+      "name": "Torsten Blindert",
+      "email": "info@by-torsten.com"
+    }
+  ],
+  "license": "MIT",
   "require": {
     "byTorsten/React": "*",
     "react/child-process": "^0.5.2"
